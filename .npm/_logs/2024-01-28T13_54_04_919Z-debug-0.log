@@ -1,0 +1,86 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.5.1
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/data/data/com.termux/files/home/.local/share/nvim/mason/staging/typescript-language-server/.npmrc Completed in 2ms
+10 timing config:load:project Completed in 5ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 13ms
+17 timing npm:load:configload Completed in 14ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install typescript-language-server@4.3.1 typescript
+21 verbose argv "install" "typescript-language-server@4.3.1" "typescript"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 6ms
+24 timing npm:load:display Completed in 8ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-01-28T13_54_04_919Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-01-28T13_54_04_919Z-debug-0.log
+27 timing npm:load:logFile Completed in 8ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 34ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile start cleaning logs, removing 3 files
+33 silly logfile done cleaning log files
+34 timing arborist:ctor Completed in 0ms
+35 timing idealTree:init Completed in 18ms
+36 timing idealTree:userRequests Completed in 7ms
+37 silly idealTree buildDeps
+38 silly fetch manifest typescript-language-server@4.3.1
+39 http fetch GET 200 https://registry.npmjs.org/typescript-language-server 409ms (cache miss)
+40 silly fetch manifest typescript@*
+41 http fetch GET 200 https://registry.npmjs.org/typescript 170ms (cache miss)
+42 silly placeDep ROOT typescript@5.3.3 OK for: @mason/typescript-language-server@1.0.0 want: *
+43 silly placeDep ROOT typescript-language-server@4.3.1 OK for: @mason/typescript-language-server@1.0.0 want: 4.3.1
+44 timing idealTree:#root Completed in 709ms
+45 timing idealTree:node_modules/typescript Completed in 0ms
+46 timing idealTree:node_modules/typescript-language-server Completed in 0ms
+47 timing idealTree:buildDeps Completed in 711ms
+48 timing idealTree:fixDepFlags Completed in 1ms
+49 timing idealTree Completed in 742ms
+50 timing reify:loadTrees Completed in 743ms
+51 timing reify:diffTrees Completed in 1ms
+52 silly reify moves {}
+53 timing reify:retireShallow Completed in 1ms
+54 timing reify:createSparse Completed in 2ms
+55 timing reify:loadBundles Completed in 0ms
+56 silly audit bulk request { typescript: [ '5.3.3' ], 'typescript-language-server': [ '4.3.1' ] }
+57 silly tarball no local data for typescript-language-server@https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.1.tgz. Extracting by manifest.
+58 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz. Extracting by manifest.
+59 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 85ms
+60 timing auditReport:getReport Completed in 87ms
+61 silly audit report {}
+62 timing auditReport:init Completed in 0ms
+63 timing reify:audit Completed in 87ms
+64 http fetch GET 200 https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-4.3.1.tgz 226ms (cache miss)
+65 timing reifyNode:node_modules/typescript-language-server Completed in 235ms
+66 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz 668ms (cache miss)
+67 timing reifyNode:node_modules/typescript Completed in 676ms
+68 timing reify:unpack Completed in 677ms
+69 timing reify:unretire Completed in 0ms
+70 timing build:queue Completed in 0ms
+71 timing build:link:node_modules/typescript Completed in 4ms
+72 timing build:link:node_modules/typescript-language-server Completed in 3ms
+73 timing build:link Completed in 4ms
+74 timing build:deps Completed in 6ms
+75 timing build Completed in 6ms
+76 timing reify:build Completed in 7ms
+77 timing reify:trash Completed in 0ms
+78 timing reify:save Completed in 11ms
+79 timing reify Completed in 1462ms
+80 silly ADD node_modules/typescript-language-server
+81 silly ADD node_modules/typescript
+82 timing command:install Completed in 1470ms
+83 verbose exit 0
+84 timing npm Completed in 1522ms
+85 info ok

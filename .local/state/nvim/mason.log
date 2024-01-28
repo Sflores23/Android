@@ -1,0 +1,20 @@
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=css-lsp) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=html-lsp) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=typescript-language-server) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=deno) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=prettier) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clangd) {}
+[INFO  Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=clang-format) {}
+[ERROR Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=stylua) error="The current platform is unsupported."
+[ERROR Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=deno) error="The current platform is unsupported."
+[ERROR Sun Jan 28 05:54:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clangd) error="The current platform is unsupported."
+[INFO  Sun Jan 28 05:54:05 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=prettier)
+[INFO  Sun Jan 28 05:54:06 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=typescript-language-server)
+[INFO  Sun Jan 28 05:54:09 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=html-lsp)
+[INFO  Sun Jan 28 05:54:10 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=css-lsp)
+[ERROR Sun Jan 28 05:54:45 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=clang-format) error=spawn: /data/data/com.termux/files/home/.local/share/nvim/mason/packages/clang-format/venv/bin/python failed with exit code 1 and signal 0. 
+[INFO  Sun Jan 28 05:54:54 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=haskell-language-server) {}
+[ERROR Sun Jan 28 05:54:54 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=haskell-language-server) error=spawn: bash failed with exit code 127 and signal 0. 

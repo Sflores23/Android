@@ -1,0 +1,77 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@9.5.1
+2 info using node@v18.16.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 7ms
+8 timing config:load:env Completed in 2ms
+9 timing config:load:file:/data/data/com.termux/files/home/.local/share/nvim/mason/staging/prettier/.npmrc Completed in 5ms
+10 timing config:load:project Completed in 10ms
+11 timing config:load:file:/data/data/com.termux/files/home/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 3ms
+13 timing config:load:file:/data/data/com.termux/files/usr/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 4ms
+16 timing config:load Completed in 35ms
+17 timing npm:load:configload Completed in 35ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install prettier@3.2.4
+21 verbose argv "install" "prettier@3.2.4"
+22 timing npm:load:setTitle Completed in 5ms
+23 timing config:load:flatten Completed in 15ms
+24 timing npm:load:display Completed in 19ms
+25 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2024-01-28T13_54_04_739Z-
+26 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2024-01-28T13_54_04_739Z-debug-0.log
+27 timing npm:load:logFile Completed in 22ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 86ms
+31 timing arborist:ctor Completed in 2ms
+32 silly logfile start cleaning logs, removing 5 files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 21ms
+35 timing idealTree:userRequests Completed in 7ms
+36 silly idealTree buildDeps
+37 silly fetch manifest prettier@3.2.4
+38 silly logfile done cleaning log files
+39 http fetch GET 200 https://registry.npmjs.org/prettier 215ms (cache miss)
+40 silly placeDep ROOT prettier@3.2.4 OK for: @mason/prettier@1.0.0 want: 3.2.4
+41 timing idealTree:#root Completed in 235ms
+42 timing idealTree:node_modules/prettier Completed in 0ms
+43 timing idealTree:buildDeps Completed in 237ms
+44 timing idealTree:fixDepFlags Completed in 1ms
+45 timing idealTree Completed in 269ms
+46 timing reify:loadTrees Completed in 270ms
+47 timing reify:diffTrees Completed in 1ms
+48 silly reify moves {}
+49 timing reify:retireShallow Completed in 2ms
+50 timing reify:createSparse Completed in 1ms
+51 timing reify:loadBundles Completed in 0ms
+52 silly audit bulk request { prettier: [ '3.2.4' ] }
+53 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-3.2.4.tgz. Extracting by manifest.
+54 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-3.2.4.tgz 245ms (cache miss)
+55 timing reifyNode:node_modules/prettier Completed in 257ms
+56 timing reify:unpack Completed in 257ms
+57 timing reify:unretire Completed in 1ms
+58 timing build:queue Completed in 1ms
+59 timing build:link:node_modules/prettier Completed in 4ms
+60 timing build:link Completed in 5ms
+61 timing build:deps Completed in 6ms
+62 timing build Completed in 6ms
+63 timing reify:build Completed in 6ms
+64 timing reify:trash Completed in 0ms
+65 timing reify:save Completed in 11ms
+66 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 574ms
+67 timing auditReport:getReport Completed in 578ms
+68 silly audit report {}
+69 timing auditReport:init Completed in 0ms
+70 timing reify:audit Completed in 578ms
+71 timing reify Completed in 860ms
+72 silly ADD node_modules/prettier
+73 timing command:install Completed in 870ms
+74 verbose exit 0
+75 timing npm Completed in 980ms
+76 info ok
